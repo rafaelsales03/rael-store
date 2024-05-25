@@ -56,7 +56,7 @@ trigger.forEach((btn) => {
         body = document.querySelector(`#${dataTarget}`);
 
         trigger.forEach((b) => b.parentNode.classList.remove('active'));
-        trigger.forEach((s) => s.classList.remove('active'));
+        content.forEach((s) => s.classList.remove('active'));
         this.parentNode.classList.add('active');
         body.classList.add('active');
     })
